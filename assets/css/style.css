@@ -111,6 +111,7 @@
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
+  color: #ff9102;
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
