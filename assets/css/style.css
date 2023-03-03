@@ -85,6 +85,7 @@
   background-size: cover;
 }
 
+
 .img-square {
   object-fit: cover;
   width: 350px;
@@ -94,6 +95,32 @@
 
 .album-cover {
   max-width: 350px;
+}
+
+@media screen and (max-width: 1200px){
+  .img-square {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+  
+  .album-cover {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .img-square {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+  
+  .album-cover {
+    max-width: 200px;
+  }
 }
 
 .cover-container {
