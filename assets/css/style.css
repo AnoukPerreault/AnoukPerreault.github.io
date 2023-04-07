@@ -167,3 +167,46 @@
   margin-left: 30px;
   text-align: left;
 }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  font-size: x-large;
+  filter: blur(0px);
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.text_orange {
+  color: #ee690a;
+}
+.text_blanc {
+  color: #ffffff;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__wrap:hover img{
+  filter: blur(4px);
+}
