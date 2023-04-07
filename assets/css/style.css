@@ -96,7 +96,9 @@
 .album-cover {
   max-width: 350px;
 }
-
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 @media screen and (max-width: 1200px){
   .img-square {
     object-fit: cover;
